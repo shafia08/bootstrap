@@ -1,0 +1,182 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features
+{
+  text-align: center;
+}
+
+#features img{
+  margin: 0px 0px 20px;
+}
+
+.navbar-brand img{
+margin:-15px;
+}
+#msg_input
+{
+  margin-bottom: 13px;
+}
+footer
+{
+  background:pink;
+  font-size: 14px;
+  padding: 10px;
+}
+.nav navbar-nav
+{
+  align: center;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+/*this is use in case of displaying page in Firefox */
+   .lead
+   {
+     -webkit-font-smoothing:antialiased;
+     text-rendering: optimizeLegibility;
+   }
+
+   ul.unstyled
+   {
+     list-style: none;
+      padding: 0px;
+   }
+/* end */
+
+
+.well .page-header
+{
+  margin-top: 0px;
+}
+.well .page-header h1
+{
+  margin-top: 0px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #search
+   {
+     width: 200px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#Mycarousel
+{
+  margin-top: 60px;
+}
+.carousel-caption
+{
+  font-size: 20px;
+}
+
+.carousel-caption h4
+{
+  font-size: 20px;
+}
+#Mycarousel .item
+{
+  height: 400px;
+}
+#s1
+{
+  background:url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+#s2
+{
+  background:url('../../images/carousel_medium_02.jpg')top center no-repeat;
+}
+#s3
+{
+  background:url('../../images/carousel_medium_03.jpg')top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well
+{
+  margin-top: 20px;
+}
+
+.alert
+{
+  margin: 20px  ;
+  display: none;  /*so that the alert will not be shown automatically. */
+}
+.tabble img.thumbnail
+{
+  margin: 0px 20px 10px 0px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #Mycarousel .item
+  {
+    height: 300px;
+  }
+  #s1
+  {
+    background:url('../../images/carousel_small_01.jpg') top center no-repeat;
+  }
+  #s2
+  {
+    background:url('../../images/carousel_small_02.jpg') top center no-repeat;
+  }
+  #s3
+  {
+    background:url('../../images/carousel_small_03.jpg') top center no-repeat;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #Mycarousel .item
+  {
+    height: 500px;
+  }
+  #s1
+  {
+    background:url('../../images/carousel_large_01.jpg') top center no-repeat;
+  }
+  #s2
+  {
+    background:url('../../images/carousel_large_02.jpg')top center no-repeat;
+  }
+  #s3
+  {
+    background:url('../../images/carousel_large_03.jpg')top center no-repeat;
+  }
+}

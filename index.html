@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title></title>
+	<meta name="description" content="">
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link rel="stylesheet" href="../includes/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+	<!-- Include Modernizr in the head, before any other Javascript -->
+
+
+</head>
+<body>
+
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+	<div class="container" id="main">
+
+		<div class="navbar navbar-fixed-top">
+			<div class="container" id="h1">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="">
+					<img src="images/logo2.jpg" alt="sorry" height="50" width="150"  >
+				</a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+
+						<li class="active" id="Home"> <a href="#">Home</a> </li>
+            <li> </li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"  data-toggle="dropdown">Services
+							<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Web Design</a></li>
+								<li><a href="#">Web Development</a></li>
+								<li><a href="#">BackEnd Coding</a></li>
+
+								<li class="divider"></li>
+								<li class="dropdown-header">More Services</li>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">Android Development</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Enter to search" id="search" />
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form>
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>  My Account
+							<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-refresh"></span>update profile</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-off"></span>Signout</a></li>
+							</ul>
+						</li>
+					</ul>
+
+				</div><!--end of nav collapse-->
+			</div> <!--end of div container -->
+		</div><!--end of div navbar-fixed-top -->
+
+		<div class="carousel slide" id="Mycarousel"> <!--Carousel strts from here -->
+
+ 		 <ol class="carousel-indicators">
+ 			 <li class="active" data-slide-to="0" data-target="#Mycarousel"></li>
+ 			 <li data-slide-to="1" data-target="#Mycarousel"></li>
+ 			 <li data-slide-to="2" data-target="#Mycarousel"></li>
+ 		 </ol>  <!--end of carousel-indicators -->
+
+ 		 <div class="carousel-inner">
+ 			 <div class="item active" id="s1">
+ 				 <div class="carousel-caption">
+ 					 <h3>Bootstrap 3!</h3>
+ 					 <p>Hello welcome to bootstrap 3.....Explore More</p>
+ 				 </div>
+ 			 </div>
+ 			 <div class="item" id="s2">
+ 				 <div class="carousel-caption">
+ 					 <h3>CSS!</h3>
+ 					 <p>This is CSS .....Explore More</p>
+ 				 </div>
+ 			 </div>
+ 			 <div class="item" id="s3">
+ 				 <div class="carousel-caption">
+ 					 <h3>html!</h3>
+ 					 <p>Learn HTML.....Explore More</p>
+ 				 </div>
+ 			 </div>
+ 		 </div><!--end of carousel-inner class -->
+ 		 <!--Control symbols started-->
+ 		 <a class="left carousel-control" data-slide="prev" href="#Mycarousel"><span class="icon-prev"></span></a>
+ 		 <a class="right carousel-control" data-slide="next" href="#Mycarousel"><span class="icon-next"></span></a>
+ 		 <!--Control symbols end-->
+
+ 	 </div><!--end of carousel-slide class -->
+
+		<!-- This is a row or can be called as callout -->
+		<div class="row" id="bigCallout">
+			<div class="col-12">
+
+				<!--this is the alert class from JQuery -->
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert"> </button>
+
+					<h4> Success </h4>
+					<p>This element is displayed by using Jquery</p>
+				</div> <!-- end of alert class -->
+
+				<!--This is used only when the browser's size becomes less then 768px ie. for mobile screens-->
+				<div class="well well-small visible-sm">   <!-- visible small means it is used for browser size of 768px -->
+					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call </a> <!-- The button is large with the defalut color i.e. dark grey -->
+				</div> <!-- end of small well -->
+
+				<div class="well">
+					<div class="page-header">
+						<h1>Welcome to Learn More <small> Explore Learn more if you want to be a DEVELOPER </small></h1>
+					</div><!--end of page header-->
+
+					<p class="lead">Web design software transformed web building: if you were a keen coder, software could speed up your coding with auto-completion and macros; if you preferred to design visually, your software would turn your designs into code and stick them online.
+Although more and more web building platforms are online and based around fairly inflexible templates, web design software still has a key role to play - especially if you like to get things done when you're far from a data connection. So which web design apps are the best? Let's find out.</p>
+					<a href="" class="btn btn-large btn-primary" id="alertMe"> Click here to see </a> <!-- this code shows that the button will be large and of primary color-->
+
+				</div> <!--end of well -->
+			</div><!-- end of col-12 -->
+		</div> <!--end of callout -->
+
+		<!-- Starting of new div called features -->
+		<div class="row" id="features">
+			<div class="col-sm-4 ">
+				<div class="panel">
+					<h3 class="panel-heading">
+					HTML5
+					</h3>
+					<img src="images/html5.jpg" alt="HTML5" >
+					<p>Explore more to Learn more </p>
+					<br>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5 </a>
+
+				</div>
+			</div> <!--end of col-sm-4-feature -->
+
+			<div class="col-sm-4 ">
+				<div class="panel">
+					<h3 class="panel-heading">
+						Style with CSS3
+					</h3>
+					<img src="images/css3.jpg" alt="css3" >
+
+					<p>Want to learn CSS3 !!!! </p>
+					<br>
+					<a href="https://www.udemy.com/build-beautiful-css3-website/" target="_blank" class="btn btn-danger btn-block">Style with CSS3 </a>
+
+				</div>
+			</div> <!--end of col-sm-4-feature -->
+
+			<div class="col-sm-4">
+				<div class="panel">
+					<h3 class="panel-heading">
+						Bootstrap
+					</h3>
+					<img src="images/bootstrap_s_1.jpg" alt="bootstrap" >
+					<p>Want to learn Bootstrap !!!! </p>
+					<a href="https://www.udemy.com/build-beautiful-bootstrap-website/" target="_blank" class="btn btn-info btn-block">Framework with  bootstrap</a>
+
+				</div>
+			</div> <!--end of col-sm-4-feature -->
+
+		</div> <!--end of features div -->
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>New Tabble Content </h3>
+				<div class="tabble">
+
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Section2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>More like our favourite surf spot</small></h4>
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d13717.954911233253!2d76.76272173277171!3d30.732770606192307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390feda4fff97ec9%3A0x217d5ccaf11d4a95!2sSector+22%2C+Chandigarh!3m2!1d30.733958299999998!2d76.77261969999999!5e0!3m2!1sen!2sin!4v1480167297953" width="100%" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+							<p>It is well known Chandigarh is one of the best planned, most happening and the best striking city of India which is famous for its renowned architecture, lifestyle, five star hotels, parks and one of the best places for fabulous shopping. You can visit any time of the year for travel and search hidden treasure in Chandigarh.</p>
+							<p>Chandigarh sector 22-D market is well known as the best street market in Chandigarh which may best suit every pocket with bargaining to reasonable prices. You can not only get there from wide collections of cloths (traditional sarees, salwars, party dresses & kids wear), bags, shoes, gifts and home linen & accessories products at very low-low rates, but also sector 22 market is the best area to find the big range of women jewellery shops to buy gold, silver, artificial and diamond jewellery.</p>
+
+						</div> <!--end of tab-pane 1 -->
+
+						<div class="tab-pane" id="tab2">
+							<h4> Section2 With Placehole.it <small>Here we are using placehold.it</small></h4>
+							<img src="http://placehold.it/140" class="thumbnail pull-left">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. E
+								xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. E
+									xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+									<hr>
+
+									<a href="#MyModal" role="button" data-toggle="modal" class="btn btn-warning">
+										<span class="glyphicon glyphicon-hand-up"></span>Click here for Modal Window</a>
+
+										<div class="modal fade" id="MyModal">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button class="close" data-dismiss="modal">  </button>
+														<h4>My Modal Window </h4>
+													</div> <!--end of modal-header -->
+													<div class="modal-body">
+														<h4>Text Heading </h4>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+															Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+															<h4>Popovres in modal window</h4>
+															<a href="" class="btn btn-danger"> Dont click this </a>
+
+															<h4>ToolTip in a window </h4>
+															<a href=""> This link </a>should have a toootltip,so should <a href=""> this one</a>
+
+															<hr> 													<p><small class="text-muted"> This is a dummy modal which doesnt work <small></p>
+
+																<form class="form-horizontal">
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="name_input">Name</label>
+																		<div class="col-lg-10">
+																			<input class="form-control" id="name_input" type="text" placeholder="Enter name">
+																		</div>
+																	</div>
+
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="email_input">Email</label>
+																		<div class="col-lg-10">
+																			<input class="form-control" id="email_input" type="email" placeholder="Enter email">
+																		</div>
+																	</div>
+
+
+																	<div class="form-group">
+																		<label class="col-lg-2 control-label" for="msg_input">Message</label>
+																		<div class="col-lg-10">
+																			<textarea class="form-control" id="msg_input" type="text" placeholder="Enter Message" rows="3"></textarea>
+
+																			<button class="btn btn-success pull-right" type="submit">Send</button>
+																		</div>
+																	</div>
+																</form>
+
+															</div> <!--end of modal-body -->
+
+															<div class="modal-footer">
+																<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+																<button class="btn btn-primary" type="button">save changes</button>
+															</div> <!--end of modal-footer -->
+
+														</div> <!--end of modal-content -->
+													</div> <!--end of modal-dialog -->
+												</div> <!--end of modal -->
+
+											</div>  <!--end of tab-pane 2 -->
+
+										</div> <!--end of tab-content -->
+
+									</div> <!--end of tabble -->
+
+								</div> <!-- end of col-small-06 -->
+
+
+								<div class="col-sm-6">
+									<h3> Want to Learn More </h3>
+									<p>Grasp knowledge that deals with the creation and use of technical means and their interrelation with life, society, and the environment, drawing upon such subjects as industrial arts, engineering, applied science, and pure science.</p>
+
+										<h4>List example </h4>
+										<div class="list-group">
+											<a href="" class="list-group-item">
+
+												<h4 class="list-group-item-heading">C</h4>
+												<p class="list-group-item-text"> C programming is a powerful general-purpose language. It is fast, portable and available in all platforms.If you are new to programming, C is a good choice to start your programming journey.This is a comprehensive guide on how to get started in C programming language, why you should learn it and how you can learn it.</p>
+											</a>
+
+											<a href="" class="list-group-item">
+
+												<h4 class="list-group-item-heading">C++</h4>
+												<p class="list-group-item-text">C++ is a middle-level programming language developed by Bjarne Stroustrup starting in 1979 at Bell Labs. C++ runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.</p>
+											</a>
+
+											<a href="" class="list-group-item">
+
+												<h4 class="list-group-item-heading">Java</h4>
+												<p class="list-group-item-text">Java is a general purpose, high-level programming language developed by Sun Microsystems. A small team of engineers, known as the Green Team, initiated the language in 1991. Java was originally called OAK, and was designed for handheld devices and set-top boxes. Oak was unsuccessful, so in 1995 Sun changed the name to Java and modified the language to take advantage of the burgeoning World Wide Web.
+													Later, in 2009, Oracle Corporati</p>
+												</a>
+
+											</div>
+										</div> <!-- end of column small-06 -->
+									</div> <!-- end of moreInfo -->
+
+									<div class="row" id="morecourses">
+										<div class="col-12">
+											<h3>More Courses </h3>
+											<div class="thumbnail row">
+												<div class="col-6">
+													<div class="thumbnail">
+														<img src="images/c.jpg">
+														<div class="caption">
+															<h3>C++ </h3>
+															<p>C++ is a high-level programming language developed by Bjarne Stroustrup at Bell Labs. C++ adds object-oriented features to its predecessor, C. C++ is one of the most popular programming language for graphical applications, such as those that run in Windows and Macintosh environments.
+															</p>
+														</div> <!-- end of caption -->
+													</div> <!-- end of thumbnail -->
+												</div> <!-- end of col-6 -->
+
+												<div class="col-6">
+													<div class="thumbnail">
+														<img src="images/java.png">
+														<br>
+														<div class="caption">
+															<h3>Java </h3>
+															<p>Java is a programming language expressly designed for use in the distributed environment of the Internet. It was designed to have the "look and feel" of the C++ language, but it is simpler to use than C++ and enforces an object-oriented programming model.
+															</p>
+														</div> <!-- end of caption -->
+													</div> <!-- end of thumbnail -->
+												</div> <!-- end of col-6 -->
+											</div> <!-- end of thumbnail row -->
+										</div> < <!-- end of col-12 -->
+									</div> <!-- end of morecourses -->
+
+								</div> <!--end of main div container -->
+
+								<footer>
+									<div class="container">
+										<div class="row">
+											<div class="col-sm-2">
+												<h6>Copyright &copy;2016 Shafia </h6>
+											</div>
+											<div class="col-sm-4">
+												<p>This website constitutes the refereed proceedings of the 6th Language and Technology Conference: Challenges for Computer Science and Linguistics, LTC 2013, held in Poznań, Poland, in December 2013. The 31 revised and in many cases substantially extended papers presented in this volume were carefully reviewed and selected from 103 submissions.The papers selected to this volume belong to various fields of Human Language Technologies and illustrate a large thematic coverage of the LTC conferences.</p>
+											</div>
+											<div class="col-sm-2">
+												<h6>Navigation</h6>
+												<ul class="unstyled">
+													<li><a href=" ">Home</a></li>
+													<li><a href=" ">services</a></li>
+													<li><a href=" ">contact</a></li>
+												</ul>
+											</div>
+
+											<div class="col-sm-2">
+												<h6>Follow us</h6>
+												<ul class="unstyled">
+													<li><a href=" "><i class="fa fa-facebook-square fa-2x"></i> Facbook</a></li>
+													<li><a href=" "><i class="fa fa-twitter fa-2x"></i> Twitter</a></li>
+													<li><a href=" "><i class="fa fa-google-plus-square fa-2x"></i> Google plus</a></li>
+												</ul>
+											</div>
+
+											<div class="col-sm-2">
+												<h6>Coded with<span class="glyphicon glyphicon-heart"></span>By Shafia</h6>
+											</div>
+
+										</div> <!-- ed og row -->
+									</div><!-- end of container of footer -->
+								</footer>
+								<!-- All Javascript at the bottom of the page for faster page loading -->
+
+								<!-- First try for the online version of jQuery-->
+								<script src="http://code.jquery.com/jquery.js"></script>
+
+								<!-- If no online access, fallback to our hardcoded version of jQuery -->
+								<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+								<!-- Bootstrap JS -->
+								<script src="bootstrap/js/bootstrap.min.js"></script>
+
+								<!-- Custom JS -->
+								<script src="includes/js/script.js"></script>
+
+							</body>
+							</html>
